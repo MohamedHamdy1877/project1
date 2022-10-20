@@ -1,0 +1,77 @@
+
+
+
+
+/* from start to flex "First lec." */
+/* ALL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstsection{ 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+    height: 400px;
+    color: rgb(225, 225, 225);
+    
+
+}
+.div1 {    
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* section 2 */
+h2{
+    margin: 25px;
+}
+.sec2{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin: 20px; */
+    flex-wrap: wrap;
+}
+.sec2 .bbb{ 
+    padding: 10px;
+    margin: 5px;
+}  
+
+.sec2 .bbb img{
+    width: 280px;
+}
+
+/* footer */
+.part3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fb;
+    height: 300px;
+    margin: 30px;
+    padding: 25px;
+}
+.part3 div{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 400px;
+}
+.part3 div small{
+    color: #b3b7b7;
+
+}
+.part3 div button{
+    background-color: transparent;
+    width: 180px;
+    padding: 10px;
+}
+.part3 div button:hover{
+    background-color:hsla(50, 96%, 51%, 0.251) ;
+    color: white;
+}
